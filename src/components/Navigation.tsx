@@ -25,10 +25,13 @@ export const Navigation = () => {
   }, []);
 
   useEffect(() => {
-    const isDarkMode = localStorage.getItem("theme") === "dark";
+    const savedTheme = localStorage.getItem("theme");
+    const isDarkMode = savedTheme === "dark" || savedTheme === null; // Default to dark if no preference saved
     setIsDark(isDarkMode);
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
   }, []);
 
