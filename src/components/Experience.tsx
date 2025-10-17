@@ -2,11 +2,11 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Software Developer Intern",
+    title: "AI Software Developer Intern",
     company: "Apex Utilities",
     location: "Edmonton, AB",
     period: "Sept 2025 – Present",
-    description: "Integrating an AI agent designed to accelerate ticket resolution and enhance customer support efficiency.",
+    description: "Integrating an AI agent with a React + TypeScript interface to accelerate ticket resolution by 10%.",
     color: "from-primary to-accent",
   },
   {
@@ -15,7 +15,7 @@ const experiences = [
     location: "Calgary, AB (Remote)",
     period: "May 2025 – Sept 2025",
     achievements: [
-      "Implemented a full-stack AI platform using TypeScript and React to ingest and process up to 380 minutes of social media content per creator via OAuth2 REST APIs.",
+      "Implemented a full-stack AI platform using TypeScript and React to ingest and process up to 6+ hours of social media content per creator via OAuth2 REST APIs.",
       "Optimized video transcription pipeline, reducing processing time by 64% through zero-cost caption ingestion with SRT parsing and deduplication.",
       "Directed development of a fan-facing chatbot using LangChain, GPT-4.1, and RAG, achieving 99% relevance in qualitative testing.",
     ],
