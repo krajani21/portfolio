@@ -1,17 +1,8 @@
 {
   "functions": {
-    "api/index.py": {
-      "runtime": "python3.9"
-    }
+    "api/**/*.py": { "runtime": "python3.11" }
   },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/index.py"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+  "routes": [
+    { "src": "^/api/(.*)$", "dest": "/api/index.py" }
   ]
 }
