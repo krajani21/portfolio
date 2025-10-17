@@ -6,13 +6,13 @@ import os
 
 app = FastAPI(title="Krish Rajani Portfolio API")
 
-# Configure CORS
+# Configure CORS for Vercel
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:8080",
         "http://localhost:5173",
-        "https://yourdomain.vercel.app",  # Replace with your Vercel domain
+        "https://*.vercel.app",  # Allow all Vercel domains
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -28,11 +28,8 @@ class ContactMessage(BaseModel):
 async def root():
     return {"message": "Krish Rajani Portfolio API", "status": "active"}
 
-@app.get("/health")
-async def health_check():
-    return {"status": "healthy"}
 
-@app.post("/api/contact")
+@app.post("/contact")
 async def submit_contact(contact: ContactMessage):
     """
     Handle contact form submissions.
