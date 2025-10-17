@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const projects = [
   {
     title: "FuelWise",
-    description: "Engineered a fuel recommendation app that helps users achieve up to 8% fuel cost savings and 7% fueling volume gain by analyzing live station pricing and geolocation.",
+    description: " Developed a fuel recommendation app that helps users achieve up to 8% fuel cost savings and 7% fuelingvolume gain by analyzing live station pricing and geolocation.",
     tech: ["MongoDB", "Express.js", "Node.js", "React.js"],
     highlights: [
       "Reduced redundant backend API calls by 80% through user-triggered fetch logic",
