@@ -12,7 +12,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company: "Wrise",
-    location: "Calgary, AB (Remote)",
+    location: "Calgary, AB",
     period: "May 2025 – Sept 2025",
     achievements: [
       "Implemented a full-stack AI platform using TypeScript and React to ingest and process up to 6+ hours of social media content per creator via OAuth2 REST APIs.",
