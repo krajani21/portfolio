@@ -1,4 +1,4 @@
 # portfolio
 
-Check out my portfolio here👇
+Check out my portfolio here👉
 https://krajani.uofacs.ca/
