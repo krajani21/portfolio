@@ -65,7 +65,7 @@ export const Hero = () => {
             className="rounded-full border-primary/30 hover:bg-primary/10 hover:border-primary/60 transition-all duration-300"
             asChild
           >
-            <a href="https://www.linkedin.com/in/krish-rajani" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/krishrajani21" target="_blank" rel="noopener noreferrer">
               <Linkedin className="h-5 w-5" />
             </a>
           </Button>
