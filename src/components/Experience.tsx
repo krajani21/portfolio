@@ -2,11 +2,14 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "AI Software Developer Intern",
+    title: "IT Service Desk Intern",
     company: "Apex Utilities",
-    location: "Edmonton, AB",
+    location: "Leduc, AB",
     period: "Sept 2025 – Present",
-    description: "Integrating an AI agent with a React + TypeScript interface to accelerate ticket resolution by 10%.",
+    achievements: [
+      "Developed PowerShell automation scripts to streamline IT operations, including a file management tool that standardized 650+ filenames and reduced manual processing by 2+ hours weekly.",
+      "Contributing to requirements gathering and system design for an AI agent projected to automate 50+ support tickets and reduce IT workload by 3+ hours weekly.",
+    ],
     color: "from-primary to-accent",
   },
   {
@@ -66,9 +69,9 @@ export const Experience = () => {
                     </div>
                   </div>
 
-                  {exp.description && (
+                  {exp.achievements && (
                     <p className="text-muted-foreground leading-relaxed">
-                      {exp.description}
+                      {exp.achievements}
                     </p>
                   )}
 
