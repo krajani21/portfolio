@@ -19,8 +19,8 @@ const experiences = [
     period: "May 2025 – Sept 2025",
     achievements: [
       "Implemented a full-stack AI platform using TypeScript and React to ingest and process up to 6+ hours of social media content per creator via OAuth2 REST APIs.",
-      "Optimized video transcription pipeline, reducing processing time by 64% through zero-cost caption ingestion with SRT parsing and deduplication.",
-      "Directed development of a fan-facing chatbot using LangChain, GPT-4.1, and RAG, achieving 99% relevance in qualitative testing.",
+      "Optimized video transcription pipeline, cutting processing time by 64% by eliminating redundant API calls.",
+      "Led development of an AI-powered chatbot using LangChain and GPT-4.1 with retrieval augmented generation, achieving 99% relevance in internal testing.",
     ],
     color: "from-secondary to-primary",
   },
@@ -68,12 +68,6 @@ export const Experience = () => {
                       <span className="text-sm">{exp.period}</span>
                     </div>
                   </div>
-
-                  {exp.achievements && (
-                    <p className="text-muted-foreground leading-relaxed">
-                      {exp.achievements}
-                    </p>
-                  )}
 
                   {exp.achievements && (
                     <ul className="space-y-3 mt-4">
