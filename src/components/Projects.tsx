@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "Silent Signal",
-    description: "Collaborated on a real-time ambient noise violation detector for distributed teams using Web Audio API, AWS Lambda, and FastAPI.",
+    description: "Collaborated to build a real-time noise violation detector using React, Python, AWS Lambda and Google’s YAMNet model, achieving 95% accuracy across 521+ sound categories",
     tech: ["React.js", "AWS Lambda", "FastAPI", "TensorFlow Hub"],
     highlights: [
       "Deployed Google's YAMNet model to classify 521+ sound categories",
