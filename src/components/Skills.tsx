@@ -1,7 +1,7 @@
 const skills = {
-  "Languages": ["Python", "Java", "C/C++", "JavaScript", "TypeScript", "SQL", "HTML/CSS"],
-  "Frameworks & Libraries": ["ReactJS", "NodeJS", "ExpressJS", "Redux", "PyTorch", "TensorFlow", "scikit-learn", "LangChain"],
-  "Databases & Cloud": ["PostgreSQL", "MySQL", "MongoDB", "Amazon Web Services", "Microsoft Azure", "Google Cloud Platform"],
+  "Languages": ["Python", "Java", "C/C++", "PowerShell", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
+  "Frameworks & Libraries": ["ReactJS", "NodeJS", "ExpressJS", "Redux", "PyTorch", "TensorFlow", "scikit-learn"],
+  "Databases & Cloud": ["PostgreSQL", "MySQL", "MongoDB", "AWS", "Microsoft Azure", "Google Cloud Platform"],
   "Developer Tools": ["Git/GitHub", "Postman", "Docker", "Linux", "Windows"],
 };
 

@@ -2,13 +2,13 @@ import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "IT Service Desk Intern",
+    title: "Software Development Intern",
     company: "Apex Utilities",
     location: "Leduc, AB",
     period: "Sept 2025 – Present",
     achievements: [
-      "Developed PowerShell automation scripts to streamline IT operations, including a file management tool that standardized 650+ filenames and reduced manual processing by 2+ hours weekly.",
-      "Contributing to requirements gathering and system design for an AI agent projected to automate 50+ support tickets and reduce IT workload by 3+ hours weekly.",
+      "Engineered a Python-based document relevance classifier using TF-IDF analysis to optimize chatbot training data, reducing dataset size by 64%.",
+      "Developing an AI support bot with Python, Azure Bot Framework, and GPT-4 embeddings on PostgreSQL vector storage to automate ticket classification, reducing manual triage workload by 10%.",
     ],
     color: "from-primary to-accent",
   },
@@ -18,9 +18,9 @@ const experiences = [
     location: "Calgary, AB",
     period: "May 2025 – Sept 2025",
     achievements: [
-      "Implemented a full-stack AI platform using TypeScript and React to ingest and process up to 6+ hours of social media content per creator via OAuth2 REST APIs.",
-      "Optimized video transcription pipeline, cutting processing time by 64% by eliminating redundant API calls.",
-      "Led development of an AI-powered chatbot using LangChain and GPT-4.1 with retrieval augmented generation, achieving 99% relevance in internal testing.",
+      "Implemented a full-stack AI platform using TypeScript and React in an agile development team, enabling fans to interact with AI versions of creators trained on their content.",
+      "Optimized video transcription pipeline, cutting processing time by 64% through zero-cost caption ingestion with SRT parsing and deduplication.",
+      "Developed an AI-powered chatbot using GPT-4 with RAG, achieving 99% relevance in internal testing.",
     ],
     color: "from-secondary to-primary",
   },

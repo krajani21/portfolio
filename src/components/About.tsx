@@ -45,10 +45,10 @@ export const About = () => {
 
         <div className="bg-card border border-border rounded-2xl p-8 md:p-12 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            I'm a third-year Computing Science student at the University of Alberta with a passion for AI/ML and software development. Currently working as a Software Developer Intern at Apex Utilities, where I'm integrating AI agents to enhance customer support efficiency.
+            I'm a Computing Science student at the University of Alberta (Expected Graduation: May 2027) with a passion for AI/ML and software development. Currently working as a Software Development Intern at Apex Utilities, where I'm engineering AI-powered solutions to optimize operations and automate support workflows.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Previously, I worked at Wrise as a Software Engineer Intern, where I built a full-stack AI platform for processing social media content and developed a fan-facing chatbot using LangChain and GPT-4. I love building intelligent systems that solve real-world problems and continuously expanding my knowledge in machine learning, cloud computing, and software architecture.
+            Previously, I worked at Wrise as a Software Engineer Intern, where I built a full-stack AI platform enabling fans to interact with AI versions of creators. I love building intelligent systems that solve real-world problems and continuously expanding my knowledge in machine learning, cloud computing, and software architecture.
           </p>
         </div>
       </div>

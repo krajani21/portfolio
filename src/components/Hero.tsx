@@ -44,7 +44,7 @@ export const Hero = () => {
         </p>
         
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          3rd Year Computing Science @ University of Alberta
+          BSc (Honors) in Computing Science @ University of Alberta • Expected May 2027
         </p>
 
         {/* Social links */}
