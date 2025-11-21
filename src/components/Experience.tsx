@@ -1,4 +1,5 @@
 import { Briefcase, Calendar } from "lucide-react";
+import { motion } from "framer-motion";
 
 const experiences = [
   {
@@ -28,14 +29,20 @@ const experiences = [
 
 export const Experience = () => {
   return (
-    <section id="experience" className="py-20 px-6 bg-muted/30">
+    <section id="experience" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in-up">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Experience
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
-        </div>
+        </motion.div>
 
         <div className="relative">
           {/* Timeline line */}
@@ -43,15 +50,18 @@ export const Experience = () => {
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
-              <div
+              <motion.div
                 key={index}
-                className="relative pl-0 md:pl-20 animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.2}s` }}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.2 }}
+                className="relative pl-0 md:pl-20"
               >
                 {/* Timeline dot */}
                 <div className="absolute left-6 top-6 w-5 h-5 rounded-full bg-gradient-to-br from-primary to-accent border-4 border-background hidden md:block" />
 
-                <div className="bg-card border border-border rounded-2xl p-6 md:p-8 hover:shadow-xl transition-all duration-300 group">
+                <div className="bg-card/30 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8 hover:shadow-xl transition-all duration-300 group">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                     <div>
                       <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
@@ -82,7 +92,7 @@ export const Experience = () => {
                     </ul>
                   )}
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

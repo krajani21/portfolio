@@ -1,5 +1,6 @@
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -41,23 +42,33 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16 animate-fade-in-up">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
             Featured Projects
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full" />
-        </div>
+        </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div
+            <motion.div
               key={index}
-              className="group relative bg-card border border-border rounded-2xl p-6 hover:shadow-2xl transition-all duration-300 animate-fade-in-up overflow-hidden"
-              style={{ animationDelay: `${index * 0.2}s` }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              whileHover={{ y: -5 }}
+              className="group relative bg-card/30 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:shadow-2xl transition-all duration-300 overflow-hidden"
             >
               {/* Gradient overlay on hover */}
               <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`} />
-              
+
               <div className="relative z-10">
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
@@ -102,7 +113,7 @@ export const Projects = () => {
 
                 <Button
                   variant="outline"
-                  className="w-full border-primary/30 hover:bg-primary/10 hover:border-primary/60 transition-all duration-300 group"
+                  className="w-full border-primary/30 hover:bg-primary/10 hover:border-primary/60 transition-all duration-300 group backdrop-blur-sm"
                   asChild
                 >
                   <a href={project.github} target="_blank" rel="noopener noreferrer">
@@ -111,7 +122,7 @@ export const Projects = () => {
                   </a>
                 </Button>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
