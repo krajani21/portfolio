@@ -26,7 +26,7 @@ export const Resume = () => {
 
           <div className="mb-6 rounded-lg overflow-hidden border border-border bg-background">
             <iframe
-              src="/Krish_Rajani_Resume.pdf"
+              src="/Krish_Rajani_resume.pdf"
               className="w-full h-[600px] md:h-[800px]"
               title="Krish Rajani Resume"
             />
