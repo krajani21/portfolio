@@ -16,9 +16,9 @@ export const About = () => {
             <div className="w-14 h-14 bg-gradient-to-br from-primary to-accent rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
               <Brain className="h-7 w-7 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2">AI/ML Enthusiast</h3>
+            <h3 className="text-xl font-bold mb-2">Full-Stack Developer</h3>
             <p className="text-muted-foreground">
-              Passionate about artificial intelligence and machine learning, with hands-on experience in building intelligent systems using cutting-edge technologies.
+              Experienced in building full-stack applications with modern frameworks like React, Node.js, and FastAPI, with a focus on performance and user experience.
             </p>
           </div>
 
@@ -26,9 +26,9 @@ export const About = () => {
             <div className="w-14 h-14 bg-gradient-to-br from-secondary to-primary rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
               <Code2 className="h-7 w-7 text-white" />
             </div>
-            <h3 className="text-xl font-bold mb-2">Full-Stack Developer</h3>
+            <h3 className="text-xl font-bold mb-2">AI/ML Enthusiast</h3>
             <p className="text-muted-foreground">
-              Experienced in building full-stack applications with modern frameworks like React, Node.js, and FastAPI, with a focus on performance and user experience.
+              Passionate about artificial intelligence and machine learning, with hands-on experience in building intelligent systems using cutting-edge technologies.
             </p>
           </div>
 
@@ -45,10 +45,10 @@ export const About = () => {
 
         <div className="bg-card border border-border rounded-2xl p-8 md:p-12 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            I'm a Computing Science student at the University of Alberta (Expected Graduation: May 2027) with a passion for AI/ML and software development. Currently working as a Software Development Intern at Apex Utilities, where I'm engineering AI-powered solutions to optimize operations and automate support workflows.
+            I'm a 3rd-year Computing Science student at the University of Alberta with a passion for software development and AI/ML. Currently working as a Software Development Intern at Apex Utilities, where I'm engineering AI-powered solutions to optimize operations and automate support workflows.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Previously, I worked at Wrise as a Software Engineer Intern, where I built a full-stack AI platform enabling fans to interact with AI versions of creators. I love building intelligent systems that solve real-world problems and continuously expanding my knowledge in machine learning, cloud computing, and software architecture.
+            Previously, I worked at Wrise as a Software Engineer Intern, where I built a full-stack platform enabling fans to interact with AI versions of creators. I love building intelligent systems that solve real-world problems and continuously expanding my knowledge in machine learning, cloud computing, and software architecture.
           </p>
         </div>
       </div>
