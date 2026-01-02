@@ -37,7 +37,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="text-xl md:text-2xl text-muted-foreground mb-4"
         >
-          AI/ML Enthusiast & Software Developer
+          Software Developer & AI/ML Enthusiast
         </motion.p>
 
         <motion.p
@@ -46,7 +46,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8"
         >
-          BSc (Honors) in Computing Science @ University of Alberta • Expected May 2027
+          BSc (Honors) in Computing Science @ University of Alberta • Expected Dec 2027
         </motion.p>
 
         {/* Social links */}
