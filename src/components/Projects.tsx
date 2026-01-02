@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "FuelWise",
-    description: "Fuel recommendation app that helps users achieve up to 8% cost savings and 7% fuel volume gain, serving 100+ users through live station pricing and geolocation analysis.",
+    description: "Engineered a fuel recommendation app that helps users achieve up to 8% cost savings and 7% fuel volume gain, serving 100+ users through live station pricing and geolocation analysis.",
     tech: ["MongoDB", "Express.js", "Node.js", "React.js"],
     highlights: [
       "Architected a 3-tier caching system with request collapsing and adaptive rate limiting, cutting API costs by 90% during peak usage",
@@ -19,19 +19,18 @@ const projects = [
     description: "Health risk prediction dashboard with an ML model achieving 83% classification accuracy.",
     tech: ["Python", "TypeScript", "React.js", "scikit-learn", "Docker"],
     highlights: [
-      "Built health risk prediction dashboard using Python, TypeScript, and React",
-      "Containerized the app with Docker and set up CI/CD with automated unit testing on GitHub Actions, reducing release time by 30%",
+      "Built a health risk prediction dashboard using Python, React, and TypeScript with an ML model achieving 83% classification accuracy.",
+      "Containerized the app with Docker and set up CI/CD with automated unit testing on GitHub Actions.",
     ],
     github: "https://github.com/krajani21/HealthIQ",
     gradient: "from-secondary to-primary",
   },
   {
     title: "Silent Signal",
-    description: "Real-time noise violation detector using Python, AWS, and React.js with Google's YAMNet model, achieving 95% accuracy across 521+ sound categories.",
+    description: "Real-time noise violation detector using Python, AWS, and React.js with Google's YAMNet model.",
     tech: ["Python", "AWS", "React.js"],
     highlights: [
-      "Collaborated to build a real-time noise violation detector using Python, AWS Lambda, React.js and Google's YAMNet model",
-      "Achieved 95% accuracy across 521+ sound categories",
+      "Built a real-time noise violation detection prototype using Python, AWS Lambda, and React.js, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
     ],
     github: "https://github.com/krajani21/SilentSignal",
     gradient: "from-accent to-secondary",
