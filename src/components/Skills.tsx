@@ -1,8 +1,8 @@
 const skills = {
-  "Languages": ["Python", "Java", "C/C++", "PowerShell", "JavaScript", "TypeScript", "SQL", "HTML", "CSS"],
-  "Frameworks & Libraries": ["ReactJS", "NodeJS", "ExpressJS", "Redux", "PyTorch", "TensorFlow", "scikit-learn"],
+  "Languages": ["Java", "Python", "Ruby", "JavaScript", "TypeScript", "C", "C#", "C++", "SQL"],
+  "Frameworks & Libraries": ["Spring Boot", "Ruby on Rails", "FastAPI", "React", "Node", "Express", "HTML", "CSS"],
   "Databases & Cloud": ["PostgreSQL", "MySQL", "MongoDB", "AWS", "Microsoft Azure", "Google Cloud Platform"],
-  "Developer Tools": ["Git/GitHub", "Postman", "Docker", "Linux", "Windows"],
+  "Developer Tools": ["Git", "GitHub", "Docker", "Kubernetes", "Redis", "Postman", "Linux"],
 };
 
 export const Skills = () => {
