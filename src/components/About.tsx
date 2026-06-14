@@ -45,7 +45,7 @@ export const About = () => {
 
         <div className="bg-card border border-border rounded-2xl p-8 md:p-12 animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
           <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-            I'm a 3rd-year Computing Science student at the University of Alberta with a passion for software development and AI/ML. Currently working as a Software Engineer Intern at PCL Construction, where I'm developing enterprise data visualization tools in C# and TypeScript to support ML and data science initiatives.
+            I'm a 4th-year Computing Science student at the University of Alberta with a passion for software development and AI/ML. Currently working as a Software Engineer Intern at PCL Construction, where I'm developing enterprise data visualization tools in C# and TypeScript to support ML and data science initiatives.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Previously, I interned at Apex Utilities, where I built a RAG-based chatbot and data pipelines to automate helpdesk workflows, and at Wrise, where I developed a full-stack platform enabling creators to deploy AI models for fan interaction. I love building intelligent systems that solve real-world problems and continuously expanding my knowledge in machine learning, cloud computing, and software architecture.
