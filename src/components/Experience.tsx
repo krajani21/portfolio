@@ -3,14 +3,25 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company: "PCL Construction",
+    location: "Edmonton, AB",
+    period: "May 2026 – Aug 2026",
+    achievements: [
+      "Developing enterprise data visualization tools in C# and TypeScript to support ML and data science initiatives.",
+    ],
+    color: "from-accent to-secondary",
+  },
+  {
     title: "Software Development Intern",
     company: "Apex Utilities",
     location: "Leduc, AB",
-    period: "Sept 2025 – Present",
+    period: "Sept 2025 – May 2026",
     achievements: [
-      "Developed an internal support bot using Python, Azure Bot Framework, and GPT-4 embeddings on PostgreSQL vector storage to automate ticket classification, reducing manual triage workload by 10%.",
-      "Built a Python data processing pipeline to score and filter knowledge base documents, reducing dataset size by 70% and improving retrieval quality.",
-      "Automated file management and user provisioning tasks using PowerShell scripts, reducing manual operations by 2+ hours weekly across multiple departments.",
+      "Deployed a RAG-based chatbot using Python, Azure, and PostgreSQL vector storage, deflecting repetitive helpdesk tickets for 150 employees via a 0.8 cosine similarity threshold, reducing manual triage workload by 10%.",
+      "Built a TF-IDF pipeline in Python to use 10K+ tickets to filter IT documentation and improve RAG quality by 70%.",
+      "Indexed IT documentation using OpenAI embeddings via PostgreSQL, enabling semantic search on the knowledge base.",
+      "Containerized the FastAPI app with Docker and deployed to Azure, powering a Teams-integrated chat interface.",
     ],
     color: "from-primary to-accent",
   },
@@ -20,9 +31,10 @@ const experiences = [
     location: "Calgary, AB",
     period: "May 2025 – Sept 2025",
     achievements: [
-      "Implemented a full-stack web application using React and TypeScript in an agile development team, enabling real-time user interactions with creator-trained language models via RESTful APIs.",
-      "Optimized video transcription pipeline, cutting processing time by 60% by adding SRT parsing and deduplication.",
-      "Developed a context-retrieval system utilizing RAG and GPT-4, achieving high relevance in internal testing.",
+      "Developed a platform in React and TypeScript to enable 500+ people to interact with creator-trained AI models.",
+      "Optimized video transcription pipeline by replacing Whisper API calls with SRT parsing and deduplication, cutting processing time by 60% and reducing transcript token load by 70%, thus lowering OpenAI API costs.",
+      "Built a RAG pipeline using LangChain and GPT-4 to embed video transcripts into Supabase for contextual answers.",
+      "Integrated Stripe subscription flow with access gating, to re-enable chatbot access upon payment verification.",
     ],
     color: "from-secondary to-primary",
   },

@@ -4,11 +4,24 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
+    title: "Core-Ledger-API",
+    description: "Built a double-entry ledger API in Ruby on Rails and PostgreSQL with atomic transactions and pessimistic locking.",
+    tech: ["Ruby on Rails", "PostgreSQL", "Minitest"],
+    highlights: [
+      "Built a double-entry ledger API in Ruby on Rails and PostgreSQL with atomic transactions and pessimistic locking.",
+      "Designed idempotent REST endpoints with Bearer token auth, preventing duplicate transaction processing across retries.",
+      "Validated 30+ edge cases via Minitest, covering balance invariants, multi-currency conversion, and atomic rollback.",
+    ],
+    github: "https://github.com/krajani21/Core-Ledger-API",
+    gradient: "from-secondary to-accent",
+  },
+  {
     title: "TradePulse",
-    description: "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate mean reversion strategies on historical price data.",
+    description: "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate and visualize mean reversion strategies on historical market pricing data.",
     tech: ["Java", "Spring Boot", "React", "TypeScript"],
     highlights: [
-      "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate mean reversion strategies on historical price data.",
+      "Built a full-stack trading strategy backtester using Java and Spring Boot with a React + TypeScript frontend, enabling users to simulate and visualize mean reversion strategies on historical market pricing data.",
+      "Deployed serverless backend using AWS Lambda, API Gateway, and AWS DynamoDB via AWS SAM.",
       "Leveraged JUnit and Mockito, ensuring code reliability across market volatility and trade execution scenarios.",
       "Designed RESTful APIs with JPA persistence, supporting backtest execution and historical result retrieval.",
     ],
@@ -21,7 +34,9 @@ const projects = [
     tech: ["MongoDB", "Express.js", "Node.js", "React.js"],
     highlights: [
       "Engineered a fuel recommendation app using React, Node.js, and MongoDB that reduced fueling costs by 8% for 100+ users, by implementing live station price analysis and geolocation-based optimization.",
+      "Orchestrated Google Maps API requests across Places, Details, and Distance Matrix endpoints with parallel batch processing, enabling real-time comparison of 40+ fuel stations per query in under 3 seconds.",
       "Architected a 3-tier caching system with request collapsing and adaptive rate limiting, cutting API costs by 90%.",
+      "Accelerated release cycles by 20% using GitHub Actions CI/CD for automated unit testing and deployment.",
     ],
     github: "https://github.com/krajani21/fuelWise",
     gradient: "from-primary to-accent",
@@ -39,10 +54,11 @@ const projects = [
   },
   {
     title: "Silent Signal",
-    description: "Built a real-time noise violation detection prototype using React.js, Python, and AWS Lambda, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
+    description: "Built a real-time sound classifier using Python, React.js, and YAMNet to classify 520+ sounds with 95% accuracy.",
     tech: ["React.js", "Python", "AWS"],
     highlights: [
-      "Built a real-time noise violation detection prototype using React.js, Python, and AWS Lambda, leveraging Google’s YAMNet model to classify 521+ sound categories with 95% accuracy.",
+      "Built a real-time sound classifier using Python, React.js and YAMNet to classify 520+ sounds with 95% accuracy.",
+      "Deployed serverless backend on AWS Lambda, API Gateway, and DynamoDB to log noise and automate alerts.",
     ],
     github: "https://github.com/krajani21/SilentSignal",
     gradient: "from-accent to-secondary",
